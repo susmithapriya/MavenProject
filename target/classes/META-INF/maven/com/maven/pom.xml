@@ -6,7 +6,7 @@
 	<artifactId>maven</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<dependenies>
+	<dependencies>
 		<!-- Selenium java library from maven-->
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -38,7 +38,7 @@
 			<scope>test</scope>
 		</dependency>
 
-	</dependenies>
+	</dependencies>
 
 	<build>
 		<pluginManagement>
@@ -78,12 +78,11 @@
 
 	</build>
 
-
-	<dependencies>
+<!--	<dependencies>
 		<dependency>
 			<groupId>com</groupId>
 			<artifactId>MavenProject</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-	</dependencies>
+	</dependencies>-->
 </project>

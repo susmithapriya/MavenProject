@@ -46,9 +46,9 @@ public class Assignment22 {
 
 		// 8. Select Gender (Female)
 		// selectgender("Female");
-		// WebElement
-		// genderradio=driver.findElement(By.xpath("//input[@value='Female']"));
-		// genderradio.click();
+		// WebElement genderradio=driver.findElement(By.xpath("//input[@value='Female']"));
+		WebElement genderradio=driver.findElement(By.xpath("//label[@for='gender-radio-2']"));
+		genderradio.click();
 
 		// 9. Enter mobile number
 		WebElement mobilenumber = driver.findElement(By.xpath("//input[@id='userNumber']"));
